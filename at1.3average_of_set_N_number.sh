@@ -5,7 +5,6 @@ echo "Enter numbers:"
 s=0
 for(( i=0; i<x; i++))
 do
-    echo "test"
     read b
     s=$((s + b))
 done

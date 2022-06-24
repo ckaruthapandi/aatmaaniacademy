@@ -1,7 +1,10 @@
 #!/bin/bash
-p=1000
-r=4
-t=3
+echo "Enter the Principal"
+read p
+echo "Enter the Rate of Interest in % per annum"
+read r
+echo "Enter the Time "
+read t
 echo "Principal is $p"
 echo "Rate of Interest in $r% per annum"
 echo "Time $t"
